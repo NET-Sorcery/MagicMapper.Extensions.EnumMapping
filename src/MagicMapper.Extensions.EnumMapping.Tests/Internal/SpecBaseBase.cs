@@ -1,7 +1,17 @@
-﻿namespace AutoMapper.Extensions.EnumMapping.Tests.Internal
+﻿using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Logging.Abstractions;
+
+namespace AutoMapper.Extensions.EnumMapping.Tests.Internal
 {
     public abstract class SpecBaseBase
     {
+        protected static ILoggerFactory _loggerFactory;
+
+        static SpecBaseBase()
+        {
+            _loggerFactory = new NullLoggerFactory();
+        }
+
         protected virtual void MainSetup()
         {
             Establish_context();

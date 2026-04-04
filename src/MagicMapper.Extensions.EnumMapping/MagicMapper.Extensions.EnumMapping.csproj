@@ -3,15 +3,16 @@
   <PropertyGroup>
     <Authors>Henk Kin</Authors>
     <Company>Henk Kin</Company>
-    <Summary>Convention-based enum value mapping extension for AutoMapper.</Summary>
-    <Description>Convention-based enum value mapping extension for AutoMapper.</Description>
-    <TargetFramework>net8.0</TargetFramework>
+    <Summary>Convention-based enum value mapping extension for MagicMapper.</Summary>
+    <Description>Convention-based enum value mapping extension for MagicMapper.</Description>
+    <TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
+    <LangVersion>14.0</LangVersion>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <AssemblyName>AutoMapper.Extensions.EnumMapping</AssemblyName>
+    <AssemblyName>MagicMapper.Extensions.EnumMapping</AssemblyName>
     <AssemblyOriginatorKeyFile>..\..\AutoMapper.snk</AssemblyOriginatorKeyFile>
     <SignAssembly>true</SignAssembly>
     <PublicSign Condition=" '$(OS)' != 'Windows_NT' ">true</PublicSign>
-    <PackageId>AutoMapper.Extensions.EnumMapping</PackageId>
+    <PackageId>MagicMapper.Extensions.EnumMapping</PackageId>
     <PackageProjectUrl>https://automapper.org</PackageProjectUrl>
     <PackageIcon>icon.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -22,15 +23,12 @@
     <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     <EmbedUntrackedSources>true</EmbedUntrackedSources>
     <Deterministic>true</Deterministic>
+    <EnableSourceLink>true</EnableSourceLink>
     <ContinuousIntegrationBuild Condition="'$(GITHUB_ACTIONS)' == 'true'">true</ContinuousIntegrationBuild>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="AutoMapper" Version="[14,15)" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0" PrivateAssets="All" />
+    <PackageReference Include="MagicMapper" Version="14.0.1" />
     <PackageReference Include="MinVer" Version="6.0.0" PrivateAssets="All" />
   </ItemGroup>
 

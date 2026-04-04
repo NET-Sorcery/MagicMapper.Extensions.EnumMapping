@@ -1,35 +1,35 @@
-AutoMapper.Extensions.EnumMapping
+MagicMapper.Extensions.EnumMapping
 ===========
-[![CI](https://github.com/AutoMapper/AutoMapper.Extensions.EnumMapping/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/AutoMapper/AutoMapper.Extensions.EnumMapping/actions/workflows/ci.yml)
-[![NuGet](https://img.shields.io/nuget/dt/AutoMapper.Extensions.EnumMapping.svg)](https://www.nuget.org/packages/AutoMapper.Extensions.EnumMapping) 
-[![NuGet](https://img.shields.io/nuget/vpre/AutoMapper.Extensions.EnumMapping.svg)](https://www.nuget.org/packages/AutoMapper.Extensions.EnumMapping)
+[![CI](https://github.com/NET-Sorcery/MagicMapper.Extensions.EnumMapping/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/NET-Sorcery/MagicMapper.Extensions.EnumMapping/actions/workflows/ci.yml)
+[![NuGet](https://img.shields.io/nuget/dt/MagicMapper.Extensions.EnumMapping.svg)](https://www.nuget.org/packages/MagicMapper.Extensions.EnumMapping) 
+[![NuGet](https://img.shields.io/nuget/vpre/MagicMapper.Extensions.EnumMapping.svg)](https://www.nuget.org/packages/MagicMapper.Extensions.EnumMapping)
 [![MyGet (dev)](https://img.shields.io/myget/automapperdev/v/AutoMapper.Extensions.EnumMapping.svg)](http://myget.org/gallery/automapperdev)
 
 ### Summary
 
-The AutoMapper.Extensions.EnumMapping library gives you control about your enum values mappings. It is possible to create a custom type converter for every enum.
+The MagicMapper.Extensions.EnumMapping library gives you control about your enum values mappings. It is possible to create a custom type converter for every enum.
 
 This library supports mapping enums values like properties.
 
 ### Dependencies
 
-- [AutoMapper](https://www.nuget.org/packages/AutoMapper/) (from version 10.0)
+- [MagicMapper](https://www.nuget.org/packages/MagicMapper/)
 
-### Installing AutoMapper.Extensions.EnumMapping
+### Installing MagicMapper.Extensions.EnumMapping
 
-You should install [AutoMapper.Extensions.EnumMapping with NuGet](https://www.nuget.org/packages/AutoMapper.Extensions.EnumMapping):
+You should install [MagicMapper.Extensions.EnumMapping with NuGet](https://www.nuget.org/packages/MagicMapper.Extensions.EnumMapping):
 
-    Install-Package AutoMapper.Extensions.EnumMapping
+    Install-Package MagicMapper.Extensions.EnumMapping
 
 Or via the .NET Core command line interface:
 
-    dotnet add package AutoMapper.Extensions.EnumMapping
+    dotnet add package MagicMapper.Extensions.EnumMapping
 
-Either commands, from Package Manager Console or .NET Core CLI, will download and install AutoMapper.Extensions.EnumMapping. AutoMapper.Extensions.EnumMapping has no dependencies. 
+Either commands, from Package Manager Console or .NET Core CLI, will download and install MagicMapper.Extensions.EnumMapping. MagicMapper.Extensions.EnumMapping has no dependencies. 
 
 ### Usage
 Install via NuGet first:
-`Install-Package AutoMapper.Extensions.EnumMapping`
+`Install-Package MagicMapper.Extensions.EnumMapping`
 
 To use it:
 
@@ -71,7 +71,7 @@ internal class YourProfile : Profile
 
 ### Testing
 
-[AutoMapper](https://www.nuget.org/packages/AutoMapper/) provides a nice tooling for validating typemaps. This library adds an extra `EnumMapperConfigurationExpressionExtensions.EnableEnumMappingValidation` extension method to extend the existing `AssertConfigurationIsValid()` method to validate also the enum mappings.
+[MagicMapper](https://www.nuget.org/packages/MagicMapper/) provides a nice tooling for validating typemaps. This library adds an extra `EnumMapperConfigurationExpressionExtensions.EnableEnumMappingValidation` extension method to extend the existing `AssertConfigurationIsValid()` method to validate also the enum mappings.
 
 To enable testing the enum mapping configuration:
 
