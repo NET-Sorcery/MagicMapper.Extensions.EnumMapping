@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34511.84
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMapper.Extensions.EnumMapping", "src\AutoMapper.Extensions.EnumMapping\AutoMapper.Extensions.EnumMapping.csproj", "{9D0DA173-4F23-4A38-B636-DD5D097CFE35}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicMapper.Extensions.EnumMapping", "src\MagicMapper.Extensions.EnumMapping\MagicMapper.Extensions.EnumMapping.csproj", "{9D0DA173-4F23-4A38-B636-DD5D097CFE35}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution items", "{DD404B2A-84F6-409F-8538-EAC089839A06}"
 	ProjectSection(SolutionItems) = preProject
@@ -20,7 +20,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution items", "Solution 
 		.github\workflows\release.yml = .github\workflows\release.yml
 	EndProjectSection
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoMapper.Extensions.EnumMapping.Tests", "src\AutoMapper.Extensions.EnumMapping.Tests\AutoMapper.Extensions.EnumMapping.Tests.csproj", "{A954C149-0306-4235-8FCB-9FAAA9AFAB5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MagicMapper.Extensions.EnumMapping.Tests", "src\MagicMapper.Extensions.EnumMapping.Tests\MagicMapper.Extensions.EnumMapping.Tests.csproj", "{A954C149-0306-4235-8FCB-9FAAA9AFAB5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
