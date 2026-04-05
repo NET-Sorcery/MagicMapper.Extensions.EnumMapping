@@ -3,5 +3,6 @@
     <LangVersion>latest</LangVersion>
     <WarningsAsErrors>true</WarningsAsErrors>
     <NoWarn>$(NoWarn);CS1701;CS1702;CS1591</NoWarn>
+    <UseArtifactsOutput>true</UseArtifactsOutput>
   </PropertyGroup>
 </Project>
